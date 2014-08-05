@@ -16,6 +16,7 @@ dependencies[] = l10n_update
 ; Features
 ; ----------
 dependencies[] = starter_core
+dependencies[] = starter_site_building
 dependencies[] = starter_wysiwyg
 dependencies[] = starter_media
 

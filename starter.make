@@ -21,6 +21,11 @@ projects[starter_core][download][type] = "git"
 projects[starter_core][download][url] = "git://github.com/jide/starter_core.git"
 projects[starter_core][subdir] = "features"
 
+projects[starter_site_building][type] = "module"
+projects[starter_site_building][download][type] = "git"
+projects[starter_site_building][download][url] = "git://github.com/jide/starter_site_building.git"
+projects[starter_site_building][subdir] = "features"
+
 projects[starter_wysiwyg][type] = "module"
 projects[starter_wysiwyg][download][type] = "git"
 projects[starter_wysiwyg][download][url] = "git://github.com/jide/starter_wysiwyg.git"
