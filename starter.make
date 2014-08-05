@@ -4,10 +4,6 @@ api = "2"
 
 projects[] = drupal
 
-; +++++ Themes +++++
-
-projects[] = bootstrap
-
 ; +++++ Modules +++++
 
 projects[features][subdir] = "contrib"
@@ -40,3 +36,8 @@ projects[starter_media][type] = "module"
 projects[starter_media][download][type] = "git"
 projects[starter_media][download][url] = "git://github.com/jide/starter_media.git"
 projects[starter_media][subdir] = "features"
+
+projects[starter_theming][type] = "module"
+projects[starter_theming][download][type] = "git"
+projects[starter_theming][download][url] = "git://github.com/jide/starter_theming.git"
+projects[starter_theming][subdir] = "features"
