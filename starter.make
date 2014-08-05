@@ -41,3 +41,8 @@ projects[starter_theming][type] = "module"
 projects[starter_theming][download][type] = "git"
 projects[starter_theming][download][url] = "git://github.com/jide/starter_theming.git"
 projects[starter_theming][subdir] = "features"
+
+projects[starter_devel][type] = "module"
+projects[starter_devel][download][type] = "git"
+projects[starter_devel][download][url] = "git://github.com/jide/starter_devel.git"
+projects[starter_devel][subdir] = "features"
