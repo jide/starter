@@ -1,0 +1,32 @@
+; Packaging information for starter
+name = "Starter"
+description = "Starter Drupal profile."
+exclusive = "1"
+core = "7.x"
+
+; ----------
+; Dependencies
+; ----------
+dependencies[] = features
+dependencies[] = locale
+dependencies[] = variable
+dependencies[] = l10n_update
+
+; ----------
+; Features
+; ----------
+dependencies[] = starter_core
+dependencies[] = starter_wysiwyg
+dependencies[] = starter_media
+
+; ----------
+; Variables
+; ----------
+variables[admin_theme] = 'seven'
+variables[site_default_country] = 'FR'
+variables[date_default_timezone] = 'Europe/Paris'
+variables[filter_fallback_format] = 'plain_text'
+variables[node_admin_theme] = '1'
+variables[node_options_page][0] = 'status'
+variables[theme_default] = 'bootstrap'
+variables[user_register] = 2
