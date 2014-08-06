@@ -32,6 +32,11 @@ projects[starter_wysiwyg][download][type] = "git"
 projects[starter_wysiwyg][download][url] = "git://github.com/jide/starter_wysiwyg.git"
 projects[starter_wysiwyg][subdir] = "features"
 
+projects[starter_forms][type] = "module"
+projects[starter_forms][download][type] = "git"
+projects[starter_forms][download][url] = "git://github.com/jide/starter_forms.git"
+projects[starter_forms][subdir] = "features"
+
 projects[starter_media][type] = "module"
 projects[starter_media][download][type] = "git"
 projects[starter_media][download][url] = "git://github.com/jide/starter_media.git"
