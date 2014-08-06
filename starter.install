@@ -5,5 +5,11 @@
  * Perform actions to set up the site for this profile.
  */
 function starter_install() {
+  module_load_include('inc', 'features', 'features.export');
 
+  foreach (features_get_features(NULL, TRUE) as $module) {
+    if ($module->status) {
+      features_revert_module($module->name);
+    }
+  }
 }
