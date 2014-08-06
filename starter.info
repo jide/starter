@@ -20,6 +20,7 @@ dependencies[] = starter_admin
 dependencies[] = starter_site_building
 dependencies[] = starter_wysiwyg
 dependencies[] = starter_forms
+dependencies[] = starter_date
 dependencies[] = starter_media
 dependencies[] = starter_theming
 dependencies[] = starter_devel
