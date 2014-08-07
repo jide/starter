@@ -58,6 +58,11 @@ projects[starter_fields][download][type] = "git"
 projects[starter_fields][download][url] = "git://github.com/jide/starter_fields.git"
 projects[starter_fields][subdir] = "features"
 
+projects[starter_frontpage][type] = "module"
+projects[starter_frontpage][download][type] = "git"
+projects[starter_frontpage][download][url] = "git://github.com/jide/starter_frontpage.git"
+projects[starter_frontpage][subdir] = "features"
+
 projects[starter_devel][type] = "module"
 projects[starter_devel][download][type] = "git"
 projects[starter_devel][download][url] = "git://github.com/jide/starter_devel.git"

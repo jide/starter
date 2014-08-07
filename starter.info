@@ -26,4 +26,5 @@ dependencies[] = starter_fields
 dependencies[] = starter_media
 dependencies[] = starter_theming
 dependencies[] = starter_country_france
+dependencies[] = starter_frontpage
 dependencies[] = starter_devel
