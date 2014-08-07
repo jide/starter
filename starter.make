@@ -13,7 +13,72 @@ projects[variable][subdir] = "contrib"
 
 ; +++++ Features +++++
 
+projects[starter_core][type] = "module"
+projects[starter_core][download][type] = "git"
+projects[starter_core][download][url] = "git://github.com/jide/starter_core.git"
+projects[starter_core][subdir] = "features"
+
+projects[starter_admin][type] = "module"
+projects[starter_admin][download][type] = "git"
+projects[starter_admin][download][url] = "git://github.com/jide/starter_admin.git"
+projects[starter_admin][subdir] = "features"
+
+projects[starter_site_building][type] = "module"
+projects[starter_site_building][download][type] = "git"
+projects[starter_site_building][download][url] = "git://github.com/jide/starter_site_building.git"
+projects[starter_site_building][subdir] = "features"
+
+projects[starter_site_building_ui][type] = "module"
+projects[starter_site_building_ui][download][type] = "git"
+projects[starter_site_building_ui][download][url] = "git://github.com/jide/starter_site_building_ui.git"
+projects[starter_site_building_ui][subdir] = "features"
+
+projects[starter_wysiwyg][type] = "module"
+projects[starter_wysiwyg][download][type] = "git"
+projects[starter_wysiwyg][download][url] = "git://github.com/jide/starter_wysiwyg.git"
+projects[starter_wysiwyg][subdir] = "features"
+
+projects[starter_forms][type] = "module"
+projects[starter_forms][download][type] = "git"
+projects[starter_forms][download][url] = "git://github.com/jide/starter_forms.git"
+projects[starter_forms][subdir] = "features"
+
+projects[starter_media][type] = "module"
+projects[starter_media][download][type] = "git"
+projects[starter_media][download][url] = "git://github.com/jide/starter_media.git"
+projects[starter_media][subdir] = "features"
+
 projects[starter_theming][type] = "module"
 projects[starter_theming][download][type] = "git"
 projects[starter_theming][download][url] = "git://github.com/jide/starter_theming.git"
 projects[starter_theming][subdir] = "features"
+
+projects[starter_fields][type] = "module"
+projects[starter_fields][download][type] = "git"
+projects[starter_fields][download][url] = "git://github.com/jide/starter_fields.git"
+projects[starter_fields][subdir] = "features"
+
+projects[starter_frontpage][type] = "module"
+projects[starter_frontpage][download][type] = "git"
+projects[starter_frontpage][download][url] = "git://github.com/jide/starter_frontpage.git"
+projects[starter_frontpage][subdir] = "features"
+
+projects[starter_content_article][type] = "module"
+projects[starter_content_article][download][type] = "git"
+projects[starter_content_article][download][url] = "git://github.com/jide/starter_content_article.git"
+projects[starter_content_article][subdir] = "features"
+
+projects[starter_content_page][type] = "module"
+projects[starter_content_page][download][type] = "git"
+projects[starter_content_page][download][url] = "git://github.com/jide/starter_content_page.git"
+projects[starter_content_page][subdir] = "features"
+
+projects[starter_carousel][type] = "module"
+projects[starter_carousel][download][type] = "git"
+projects[starter_carousel][download][url] = "git://github.com/jide/starter_carousel.git"
+projects[starter_carousel][subdir] = "features"
+
+projects[starter_devel][type] = "module"
+projects[starter_devel][download][type] = "git"
+projects[starter_devel][download][url] = "git://github.com/jide/starter_devel.git"
+projects[starter_devel][subdir] = "features"
