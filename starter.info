@@ -10,6 +10,8 @@ core = "7.x"
 dependencies[] = locale
 dependencies[] = variable
 dependencies[] = l10n_update
+dependencies[] = features
+dependencies[] = features_override
 
 ; ----------
 ; Features
