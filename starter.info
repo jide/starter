@@ -27,4 +27,6 @@ dependencies[] = starter_media
 dependencies[] = starter_theming
 dependencies[] = starter_country_france
 dependencies[] = starter_frontpage
+dependencies[] = starter_content_article
+dependencies[] = starter_carousel
 dependencies[] = starter_devel

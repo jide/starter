@@ -63,6 +63,16 @@ projects[starter_frontpage][download][type] = "git"
 projects[starter_frontpage][download][url] = "git://github.com/jide/starter_frontpage.git"
 projects[starter_frontpage][subdir] = "features"
 
+projects[starter_content_article][type] = "module"
+projects[starter_content_article][download][type] = "git"
+projects[starter_content_article][download][url] = "git://github.com/jide/starter_content_article.git"
+projects[starter_content_article][subdir] = "features"
+
+projects[starter_carousel][type] = "module"
+projects[starter_carousel][download][type] = "git"
+projects[starter_carousel][download][url] = "git://github.com/jide/starter_carousel.git"
+projects[starter_carousel][subdir] = "features"
+
 projects[starter_devel][type] = "module"
 projects[starter_devel][download][type] = "git"
 projects[starter_devel][download][url] = "git://github.com/jide/starter_devel.git"
