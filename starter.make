@@ -78,6 +78,11 @@ projects[starter_seo][download][type] = "git"
 projects[starter_seo][download][url] = "git://github.com/jide/starter_seo.git"
 projects[starter_seo][subdir] = "features"
 
+projects[starter_search][type] = "module"
+projects[starter_search][download][type] = "git"
+projects[starter_search][download][url] = "git://github.com/jide/starter_search.git"
+projects[starter_search][subdir] = "features"
+
 projects[starter_carousel][type] = "module"
 projects[starter_carousel][download][type] = "git"
 projects[starter_carousel][download][url] = "git://github.com/jide/starter_carousel.git"

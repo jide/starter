@@ -30,5 +30,6 @@ dependencies[] = starter_frontpage
 dependencies[] = starter_content_article
 dependencies[] = starter_content_page
 dependencies[] = starter_seo
+dependencies[] = starter_search
 dependencies[] = starter_carousel
 dependencies[] = starter_devel
