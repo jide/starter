@@ -63,6 +63,11 @@ projects[starter_frontpage][download][type] = "git"
 projects[starter_frontpage][download][url] = "git://github.com/jide/starter_frontpage.git"
 projects[starter_frontpage][subdir] = "features"
 
+projects[starter_content][type] = "module"
+projects[starter_content][download][type] = "git"
+projects[starter_content][download][url] = "git://github.com/jide/starter_content.git"
+projects[starter_content][subdir] = "features"
+
 projects[starter_content_article][type] = "module"
 projects[starter_content_article][download][type] = "git"
 projects[starter_content_article][download][url] = "git://github.com/jide/starter_content_article.git"
@@ -72,6 +77,26 @@ projects[starter_content_page][type] = "module"
 projects[starter_content_page][download][type] = "git"
 projects[starter_content_page][download][url] = "git://github.com/jide/starter_content_page.git"
 projects[starter_content_page][subdir] = "features"
+
+projects[starter_multilingual][type] = "module"
+projects[starter_multilingual][download][type] = "git"
+projects[starter_multilingual][download][url] = "git://github.com/jide/starter_multilingual.git"
+projects[starter_multilingual][subdir] = "features"
+
+projects[starter_multilingual_article][type] = "module"
+projects[starter_multilingual_article][download][type] = "git"
+projects[starter_multilingual_article][download][url] = "git://github.com/jide/starter_multilingual_article.git"
+projects[starter_multilingual_article][subdir] = "features"
+
+projects[starter_multilingual_page][type] = "module"
+projects[starter_multilingual_page][download][type] = "git"
+projects[starter_multilingual_page][download][url] = "git://github.com/jide/starter_multilingual_page.git"
+projects[starter_multilingual_page][subdir] = "features"
+
+projects[starter_multilingual_media][type] = "module"
+projects[starter_multilingual_media][download][type] = "git"
+projects[starter_multilingual_media][download][url] = "git://github.com/jide/starter_multilingual_media.git"
+projects[starter_multilingual_media][subdir] = "features"
 
 projects[starter_seo][type] = "module"
 projects[starter_seo][download][type] = "git"
