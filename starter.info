@@ -37,4 +37,5 @@ dependencies[] = starter_multilingual_media
 dependencies[] = starter_seo
 dependencies[] = starter_search
 dependencies[] = starter_carousel
+dependencies[] = starter_commerce
 dependencies[] = starter_devel
