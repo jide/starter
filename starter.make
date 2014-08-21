@@ -83,21 +83,6 @@ projects[starter_multilingual][download][type] = "git"
 projects[starter_multilingual][download][url] = "git://github.com/jide/starter_multilingual.git"
 projects[starter_multilingual][subdir] = "features"
 
-;projects[starter_multilingual_article][type] = "module"
-;projects[starter_multilingual_article][download][type] = "git"
-;projects[starter_multilingual_article][download][url] = "git://github.com/jide/starter_multilingual_article.git"
-;projects[starter_multilingual_article][subdir] = "features"
-
-;projects[starter_multilingual_page][type] = "module"
-;projects[starter_multilingual_page][download][type] = "git"
-;projects[starter_multilingual_page][download][url] = "git://github.com/jide/starter_multilingual_page.git"
-;projects[starter_multilingual_page][subdir] = "features"
-
-;projects[starter_multilingual_media][type] = "module"
-;projects[starter_multilingual_media][download][type] = "git"
-;projects[starter_multilingual_media][download][url] = "git://github.com/jide/starter_multilingual_media.git"
-;projects[starter_multilingual_media][subdir] = "features"
-
 projects[starter_seo][type] = "module"
 projects[starter_seo][download][type] = "git"
 projects[starter_seo][download][url] = "git://github.com/jide/starter_seo.git"
@@ -117,6 +102,16 @@ projects[starter_commerce][type] = "module"
 projects[starter_commerce][download][type] = "git"
 projects[starter_commerce][download][url] = "git://github.com/jide/starter_commerce.git"
 projects[starter_commerce][subdir] = "features"
+
+projects[starter_devel][type] = "module"
+projects[starter_devel][download][type] = "git"
+projects[starter_devel][download][url] = "git://github.com/jide/starter_devel.git"
+projects[starter_devel][subdir] = "features"
+
+projects[starter_performance][type] = "module"
+projects[starter_performance][download][type] = "git"
+projects[starter_performance][download][url] = "git://github.com/jide/starter_performance.git"
+projects[starter_performance][subdir] = "features"
 
 projects[starter_devel][type] = "module"
 projects[starter_devel][download][type] = "git"
