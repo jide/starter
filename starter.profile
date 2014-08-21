@@ -27,6 +27,14 @@ function starter_install_tasks($install_state) {
       'run' => $needs_translations ? INSTALL_TASK_RUN_IF_NOT_COMPLETED : INSTALL_TASK_SKIP,
       'type' => 'batch',
     ),
+    /*
+    'starter_replace_titles' => array(
+      'display_name' => st('Replace titles'),
+      'display' => TRUE,
+      'run' => INSTALL_TASK_RUN_IF_NOT_COMPLETED,
+      'type' => 'batch',
+    ),
+    */
   );
 }
 
@@ -62,5 +70,31 @@ function starter_import_translation(&$install_state) {
   module_load_include('batch.inc', 'l10n_update');
   $updates = _l10n_update_prepare_updates($updates, NULL, array());
   $batch = l10n_update_batch_multiple($updates, LOCALE_IMPORT_KEEP);
+  return $batch;
+}
+
+/**
+ * Installation step callback.
+ *
+ * @param $install_state
+ *   An array of information about the current installation state.
+ */
+function starter_replace_titles(&$install_state) {
+  $batch = array(
+    'title' => t('Replacing field values'),
+    'operations' => array(),
+  );
+
+  $info = entity_get_info();
+  foreach ($info as $entity_type => $entity_info) {
+    if (!empty($entity_info['fieldable']) && !empty($info[$entity_type]['field replacement'])) {
+      foreach ($info[$entity_type]['field replacement'] as $legacy_field => $data) {
+        foreach ($entity_info['bundles'] as $bundle => $bundle_info) {
+          $batch['operations'][] = array('title_field_replacement_batch', array($entity_type, $bundle, $legacy_field));
+        }
+      }
+    }
+  }
+
   return $batch;
 }
