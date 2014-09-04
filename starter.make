@@ -16,6 +16,11 @@ projects[starter_core][download][type] = "git"
 projects[starter_core][download][url] = "git://github.com/jide/starter_core.git"
 projects[starter_core][subdir] = "features"
 
+projects[starter_country_france][type] = "module"
+projects[starter_country_france][download][type] = "git"
+projects[starter_country_france][download][url] = "git://github.com/jide/starter_country_france.git"
+projects[starter_country_france][subdir] = "features"
+
 projects[starter_admin][type] = "module"
 projects[starter_admin][download][type] = "git"
 projects[starter_admin][download][url] = "git://github.com/jide/starter_admin.git"
@@ -31,6 +36,11 @@ projects[starter_site_building_ui][download][type] = "git"
 projects[starter_site_building_ui][download][url] = "git://github.com/jide/starter_site_building_ui.git"
 projects[starter_site_building_ui][subdir] = "features"
 
+projects[starter_block][type] = "module"
+projects[starter_block][download][type] = "git"
+projects[starter_block][download][url] = "git://github.com/jide/starter_block.git"
+projects[starter_block][subdir] = "features"
+
 projects[starter_wysiwyg][type] = "module"
 projects[starter_wysiwyg][download][type] = "git"
 projects[starter_wysiwyg][download][url] = "git://github.com/jide/starter_wysiwyg.git"
@@ -43,7 +53,7 @@ projects[starter_forms][subdir] = "features"
 
 projects[starter_forms_contact][type] = "module"
 projects[starter_forms_contact][download][type] = "git"
-projects[starter_forms_contact][download][url] = "git://github.com/jide/starter_forms.git"
+projects[starter_forms_contact][download][url] = "git://github.com/jide/starter_forms_contact.git"
 projects[starter_forms_contact][subdir] = "features"
 
 projects[starter_media][type] = "module"
