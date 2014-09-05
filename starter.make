@@ -7,7 +7,7 @@ api = "2"
 projects[features][subdir] = "contrib"
 projects[features_override][subdir] = "contrib"
 projects[l10n_update][subdir] = "contrib"
-projects[variable][subdir] = "contrib"
+projects[strongarm][subdir] = "contrib"
 
 ; +++++ Features +++++
 
