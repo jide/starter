@@ -9,6 +9,7 @@ projects[features_override][subdir] = "contrib"
 projects[l10n_update][subdir] = "contrib"
 projects[variable][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
+projects[ctools][subdir] = "contrib"
 
 ; +++++ Features +++++
 
@@ -36,6 +37,16 @@ projects[starter_site_building_ui][type] = "module"
 projects[starter_site_building_ui][download][type] = "git"
 projects[starter_site_building_ui][download][url] = "git://github.com/jide/starter_site_building_ui.git"
 projects[starter_site_building_ui][subdir] = "features"
+
+projects[starter_fields][type] = "module"
+projects[starter_fields][download][type] = "git"
+projects[starter_fields][download][url] = "git://github.com/jide/starter_fields.git"
+projects[starter_fields][subdir] = "features"
+
+projects[starter_user][type] = "module"
+projects[starter_user][download][type] = "git"
+projects[starter_user][download][url] = "git://github.com/jide/starter_user.git"
+projects[starter_user][subdir] = "features"
 
 projects[starter_block][type] = "module"
 projects[starter_block][download][type] = "git"
@@ -66,11 +77,6 @@ projects[starter_theming][type] = "module"
 projects[starter_theming][download][type] = "git"
 projects[starter_theming][download][url] = "git://github.com/jide/starter_theming.git"
 projects[starter_theming][subdir] = "features"
-
-projects[starter_fields][type] = "module"
-projects[starter_fields][download][type] = "git"
-projects[starter_fields][download][url] = "git://github.com/jide/starter_fields.git"
-projects[starter_fields][subdir] = "features"
 
 projects[starter_frontpage][type] = "module"
 projects[starter_frontpage][download][type] = "git"
