@@ -38,6 +38,5 @@ dependencies[] = starter_seo
 dependencies[] = starter_search
 dependencies[] = starter_carousel
 dependencies[] = starter_commerce
-dependencies[] = starter_demo
 ;dependencies[] = starter_performance
 dependencies[] = starter_devel
